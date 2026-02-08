@@ -1,0 +1,162 @@
+:root {
+--bg-dark-paper: #ece7e1;
+--ink-black: #1a1a1a;
+--legal-red: #8b0000;
+--folder-brown: #d2b48c;
+--typewriter-font: 'Courier Prime', monospace;
+}
+
+body {
+background-color: var(--bg-dark-paper);
+color: var(--ink-black);
+margin: 0;
+font-family: 'Eb Garamond', serif;
+background-image: url('https://www.transparenttextures.com');
+}
+
+header {
+text-align: center;
+padding: 90px 20px;
+}
+
+h1 {
+font-size: 5.5rem;
+font-weight: 700;
+margin: 0;
+letter-spacing: -2px;
+}
+
+.series-title {
+font-family: var(--typewriter-font);
+font-size: 0.9rem;
+background: var(--ink-black);
+color: white;
+padding: 5px 15px;
+display: inline-block;
+}
+
+.hacker-dec {
+font-family: 'JetBrains Mono', monospace;
+font-size: 1rem;
+margin-top: 20px;
+letter-spacing: 5px;
+color: var(--legal-red);
+}
+
+.dossier-container {
+max-width: 750px;
+margin: 20px auto 60px;
+background: #fdfdfd;
+padding: 60px 70px;
+border: 1px solid #c0c0c0;
+box-shadow: 2px 2px 0px #b0b0b0;
+position: relative;
+}
+
+.top-label {
+position: absolute;
+top: 0; left: 20px;
+background: var(--folder-brown);
+padding: 5px 15px;
+font-family: var(--typewriter-font);
+font-size: 0.75rem;
+transform: translateY(-50%);
+}
+
+.manifesto-box {
+font-family: var(--typewriter-font);
+border: 1px dashed var(--ink-black);
+padding: 25px;
+margin: 40px 0;
+background: #fff;
+font-size: 1rem;
+line-height: 1.4;
+}
+
+.underground-grid {
+display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 40px;
+max-width: 1050px;
+margin: 60px auto;
+padding: 0 20px;
+}
+
+.scrap-card {
+background: #fff;
+ padding: 10px;
+border: 1px solid #000;
+transform: rotate(0.5deg);
+}
+
+.law-card {
+background: #f0f0f0;
+ border: 2px solid #000;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.red-stamp {
+border: 3px solid var(--legal-red);
+color: var(--legal-red);
+font-family: var(--typewriter-font);
+font-weight: bold;
+padding: 5px 10px;
+width: fit-content;
+transform: rotate(-15deg);
+margin: 20px auto;
+}
+
+.scrap-card img {
+width: 100%;
+filter: contrast(1.2) grayscale(100%);
+}
+
+.poetic-list {
+  list-style: none;
+  padding: 0;
+}
+
+.poetic-list li { margin-bottom: 40px; }
+
+.poetic-list strong {
+  font-family: var(--typewriter-font);
+  color: var(--legal-red);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.poetic-list em {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  border-left: 2px solid var(--legal-red);
+  padding-left: 20px;
+}
+
+.refrain {
+  text-align: center;
+  font-family: var(--typewriter-font);
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.final-dedication {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  font-family: var(--typewriter-font);
+  background: #000;
+  color: #fff;
+}
+
