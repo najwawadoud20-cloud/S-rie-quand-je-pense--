@@ -1,14 +1,6 @@
-root {
---bg-light: #fdfdfb;
---olive-green: #556b2f;
---ink-blue: #1c2e4a;
---clay-red: #a0522d;
---soft-white: #ffffff;
-}
-
 body {
-background-color: var(--bg-light);
-color: var(--ink-blue);
+background-color: #fdfdfb;
+color: #1c2e4a;
 margin: 0;
 font-family: 'Outfit', sans-serif;
 background-image: url('https://www.transparenttextures.com');
@@ -22,23 +14,23 @@ padding: 100px 20px;
 h1 {
 font-family: 'Cinzel', serif;
 font-size: 4rem;
-color: var(--olive-green);
+color: #556b2f;
 margin: 10px 0;
 }
 
 .series-title {
 font-family: 'Playfair Display', serif;
 font-style: italic;
-color: var(--clay-red);
+color:#a0522d;
 }
 
 .courage-container {
 max-width: 800px;
 margin: 20px auto 60px;
-background: var(--soft-white);
+background: #ffffff;
 padding: 60px;
 box-shadow: 0 10px 50px rgba(0,0,0,0.03);
-border-left: 8px solid var(--olive-green);
+border-left: 8px solid #556b2f;
 position: relative;
 }
 
@@ -46,10 +38,10 @@ position: relative;
 font-family: 'Playfair Display', serif;
 font-style: italic;
 font-size: 1.5rem;
-color: var(--clay-red);
+color: #a0522d;
 text-align: center;
 padding: 40px;
-border: 1px dashed var(--olive-green);
+border: 1px dashed #556b2f;
 margin: 40px 0;
 }
 
@@ -70,7 +62,7 @@ transform: rotate(0.5deg);
 }
 
 .legacy-card {
-background: green;
+background: #556b2f;
 color: white;
 transform: rotate(-1deg);
 }
@@ -90,20 +82,20 @@ padding: 0;
 
 .poetic-list strong {
 font-family: 'Cinzel', serif;
-color: var(--olive-green);
+color: #556b2f;
 display: block;
 }
 
 .poetic-list em {
 display: block;
 margin-top: 10px;
-color: var(--clay-red);
+color: #a0522d;
 }
 
 .refrain {
 text-align: center;
 font-weight: bold;
-border-top: 1px solid var(--olive-green);
+border-top: 1px solid #556b2f;
 padding-top: 20px;
 }
 
@@ -118,7 +110,6 @@ margin: 80px auto;
 footer {
 text-align: center;
 padding: 60px;
-background: var(--ink-blue);
+background: #1c2e4a;
 color: white;
 }
-
