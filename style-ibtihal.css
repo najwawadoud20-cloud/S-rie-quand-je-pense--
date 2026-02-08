@@ -70,7 +70,7 @@ transform: rotate(0.5deg);
 }
 
 .legacy-card {
-background: olive green;
+background: green;
 color: white;
 transform: rotate(-1deg);
 }
