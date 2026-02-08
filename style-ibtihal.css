@@ -61,6 +61,10 @@ border: 1px solid #eee;
 transform: rotate(0.5deg);
 }
 
+img {
+  padding: 15px;
+}
+
 .legacy-card {
 background: #556b2f;
 color: white;
