@@ -1,0 +1,155 @@
+:root {
+--space-black: #0a0e14;
+--blueprint-blue: #1b2735;
+--paper-white: #f4f4f9;
+--nasa-red: #fc3d21;
+--carbon-ink: #2a2a2a;
+}
+
+body {
+background-color: var(--space-black);
+color: var(--paper-white);
+margin: 0;
+font-family: 'Space Grotesk', sans-serif;
+background-image: url('https://www.transparenttextures.com'); 
+}
+
+header {
+text-align: center;
+padding: 120px 20px;
+}
+
+h1 {
+font-family: 'Cormorant Garamond', serif;
+font-size: 5rem;
+font-style: italic;
+color: var(--paper-white);
+text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.series-title {
+font-family: 'Special Elite', cursive;
+letter-spacing: 3px;
+color: var(--nasa-red);
+}
+
+.mission-container {
+max-width: 800px;
+margin: 20px auto 60px;
+background: var(--paper-white);
+color: var(--carbon-ink);
+padding: 60px 80px;
+box-shadow: 0 0 50px rgba(0,0,0,0.5);
+position: relative;
+border: 1px solid #d1d1d1;
+}
+
+.carbon-texture {
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+background: url('https://www.transparenttextures.com');
+opacity: 0.03;
+pointer-events: none;
+}
+
+.apollo-snippet {
+font-family: 'monospace';
+background: #e8e8e8;
+padding: 25px;
+border-left: 5px solid var(--blueprint-blue);
+font-size: 0.9rem;
+margin: 30px 0;
+}
+
+.space-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+max-width: 1100px;
+margin: 60px auto;
+padding: 0 20px;
+}
+
+.scrap-card {
+background: white;
+padding: 10px;
+color: var(--carbon-ink);
+border: 1px solid #333;
+transform: rotate(1deg);
+}
+
+.nasa-card {
+background: var(--blueprint-blue);
+color: white;
+transform: rotate(-1deg);
+border: 2px dashed white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
+}
+
+.mission-stamp {
+font-family: 'Special Elite', cursive;
+border: 2px solid var(--nasa-red);
+color: var(--nasa-red);
+padding: 5px;
+width: fit-content;
+margin-top: 20px;
+transform: rotate(-10deg);
+}
+
+.scrap-card img {
+width: 100%;
+filter: grayscale(100%) contrast(1.2);
+}
+
+.caption {
+font-family: 'Special Elite', cursive;
+font-size: 0.8rem;
+text-align: center;
+margin-top: 10px;
+}
+
+.poetic-list {
+list-style: none;
+padding: 0;
+}
+
+.poetic-list li { margin-bottom: 40px; }
+
+.poetic-list strong {
+font-family: 'Space Grotesk', sans-serif;
+text-transform: uppercase;
+color: var(--blueprint-blue);
+letter-spacing: 2px;
+}
+
+.poetic-list em {
+display: block;
+margin-top: 10px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1.4rem;
+}
+
+.refrain {
+text-align: center;
+font-family: 'Special Elite', cursive;
+border-top: 1px solid var(--carbon-ink);
+padding-top: 20px;
+}
+
+.final-dedication {
+text-align: center;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1rem;
+padding: 100px 20px;
+color: var(--paper-white);
+}
+
+footer {
+text-align: center;
+padding: 60px;
+background: #000;
+font-family: 'Special Elite', cursive;
+}
