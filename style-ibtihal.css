@@ -1,0 +1,124 @@
+root {
+--bg-light: #fdfdfb;
+--olive-green: #556b2f;
+--ink-blue: #1c2e4a;
+--clay-red: #a0522d;
+--soft-white: #ffffff;
+}
+
+body {
+background-color: var(--bg-light);
+color: var(--ink-blue);
+margin: 0;
+font-family: 'Outfit', sans-serif;
+background-image: url('https://www.transparenttextures.com');
+}
+
+header {
+text-align: center;
+padding: 100px 20px;
+}
+
+h1 {
+font-family: 'Cinzel', serif;
+font-size: 4rem;
+color: var(--olive-green);
+margin: 10px 0;
+}
+
+.series-title {
+font-family: 'Playfair Display', serif;
+font-style: italic;
+color: var(--clay-red);
+}
+
+.courage-container {
+max-width: 800px;
+margin: 20px auto 60px;
+background: var(--soft-white);
+padding: 60px;
+box-shadow: 0 10px 50px rgba(0,0,0,0.03);
+border-left: 8px solid var(--olive-green);
+position: relative;
+}
+
+.voice-box {
+font-family: 'Playfair Display', serif;
+font-style: italic;
+font-size: 1.5rem;
+color: var(--clay-red);
+text-align: center;
+padding: 40px;
+border: 1px dashed var(--olive-green);
+margin: 40px 0;
+}
+
+.action-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+max-width: 1100px;
+margin: 60px auto;
+padding: 0 20px;
+}
+
+.scrap-card {
+background: white;
+padding: 15px;
+border: 1px solid #eee;
+transform: rotate(0.5deg);
+}
+
+.legacy-card {
+background: var(--olive-green);
+color: white;
+transform: rotate(-1deg);
+}
+
+.shield-icon {
+font-size: 2.5rem;
+text-align: center;
+margin-top: 20px;
+}
+
+.poetic-list {
+list-style: none;
+padding: 0;
+}
+
+.poetic-list li { margin-bottom: 40px; }
+
+.poetic-list strong {
+font-family: 'Cinzel', serif;
+color: var(--olive-green);
+display: block;
+}
+
+.poetic-list em {
+display: block;
+margin-top: 10px;
+color: var(--clay-red);
+}
+
+.refrain {
+text-align: center;
+font-weight: bold;
+border-top: 1px solid var(--olive-green);
+padding-top: 20px;
+}
+
+.final-dedication {
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 1rem;
+max-width: 700px;
+margin: 80px auto;
+}
+
+footer {
+text-align: center;
+padding: 60px;
+background: var(--ink-blue);
+color: white;
+}
+
