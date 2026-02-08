@@ -1,0 +1,115 @@
+:root {
+--bg-color: #f4f1ea;
+--text-color: #2d2424;
+}
+
+body {
+background-color: var(--bg-color);
+color: var(--text-color);
+margin: 0;
+font-family: 'IM Fell English', serif;
+background-image: url('https://www.transparenttextures.com');
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.main-header {
+text-align: center;
+padding: 80px 20px;
+position: relative;
+}
+
+h1 {
+font-size: 4.5rem;
+font-style: italic;
+margin: 0;
+}
+
+.intro-text {
+font-family: 'Special Elite', cursive;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 0.9rem;
+opacity: 0.7;
+}
+
+.library-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 40px;
+max-width: 1200px;
+width: 90%;
+padding: 40px 0;
+}
+
+.book-link {
+text-decoration: none;
+color: inherit;
+transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.book-cover {
+background: #fff;
+height: 300px;
+padding: 30px 20px;
+border: 1px solid #dcdcdc;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+border-left: 15px solid #333;
+}
+
+.book-link[data-color="rose"] .book-cover { border-left-color: #d4a5a2; }
+.book-link[data-color="blue"] .book-cover { border-left-color: #a3c1da; }
+.book-link[data-color="red"] .book-cover { border-left-color: #8b0000; }
+.book-link[data-color="gold"] .book-cover { border-left-color: #d4af37; }
+.book-link[data-color="olive"] .book-cover { border-left-color: #556b2f; }
+.book-link[data-color="night"] .book-cover { border-left-color: #1b2735; }
+.book-link[data-color="burgundy"] .book-cover { border-left-color: #6b1d1d; }
+
+.book-link:hover {
+transform: translateY(-15px) rotate(-3deg);
+}
+
+.chapter-num {
+font-family: 'Special Elite', cursive;
+font-size: 1.5rem;
+opacity: 0.3;
+position: absolute;
+top: 20px;
+}
+
+h3 {
+font-size: 1.8rem;
+margin: 10px 0;
+}
+
+.book-cover p {
+font-family: 'Special Elite', cursive;
+font-size: 0.8rem;
+opacity: 0.6;
+}
+
+.landing-footer {
+margin-top: auto;
+padding: 60px 20px;
+text-align: center;
+}
+
+.signature {
+font-family: 'Special Elite', cursive;
+font-size: 0.7rem;
+opacity: 0.5;
+margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+h1 { font-size: 2.8rem; }
+.library-grid { grid-template-columns: 1fr; }
+  }
